@@ -1,0 +1,87 @@
+main {
+    width: 90%;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-bottom: 80px;
+}
+.name {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.experience {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+
+.experience li{
+    list-style: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: smaller;  
+}
+
+.experience li:last-child {
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.second {
+    margin-top: 50px;
+}
+.image {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.beside-image {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.bottom-two {
+    margin-top: 40px;
+}
+
+.career {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.three {
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.skill li {
+    list-style: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: smaller; 
+    border: 1px solid rgb(216, 216, 216);
+    padding: 5px;
+} 
+
+.grad {
+background-image: linear-gradient(to right, rgba(124, 244, 253, 1), rgba(252, 89, 116, 1));
+width: 70%;
+height: 800px;
+margin: auto;
+margin-top: 0;
+}
